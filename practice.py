@@ -17,7 +17,12 @@ def print_list(items):
         3
         9
     """
-
+    #list_of_numbers = []
+    for number in items:
+        print number
+        #list_of_numbers.append(number)
+    #print list_of_numbers
+    
 
 
 def long_words(words):
