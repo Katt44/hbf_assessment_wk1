@@ -92,7 +92,7 @@ def foods_in_common(foods1, foods2):
 
     return ['the wrong thing']
 
-
+ 
 def every_other_item(items):
     """Return every other item in `items`, starting at first item.
 
@@ -109,8 +109,12 @@ def every_other_item(items):
        ... )
        ['you', 'are', 'good', 'at', 'code']
     """
+    # every_other_item_list = []
+    # for item in items:
+    #     if items.index(item) == 0:
+    #         every_other_item_list.append(item)
+        
 
-    return ['the wrong thing']
 
 
 def largest_n_items(items, n):
