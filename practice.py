@@ -6,23 +6,12 @@ you run this file.
 
 
 def print_list(items):
-    """Print each item in the input list.
+    """Print each item in the input list."""
 
-    For example::
 
-        >>> print_list([1, 2, 6, 3, 9])
-        1
-        2
-        6
-        3
-        9
-    """
-    #list_of_numbers = []
     for number in items:
         print number
-        #list_of_numbers.append(number)
-    #print list_of_numbers
-    
+  
 
 
 def long_words(words):
@@ -41,8 +30,18 @@ def long_words(words):
         >>> long_words(["all", "are", "tiny"])
         []
     """
+    # new_word_list = []
+    # for per_word in words:
+    #     if len(per_word) >= 4:
+    #         new_word_list.append(per_word)
+    #         return new_word_list
+    #     else:
+    #         return new_word_list
 
-    return ['the wrong thing']
+
+
+      
+
 
 
 def n_long_words(words, n):
@@ -59,8 +58,13 @@ def n_long_words(words, n):
         >>> n_long_words(["I", "like", "apples", "bananas", "you"], 5)
         ['apples', 'bananas']
     """
+    # for word in words
+    #     if len(word) < n:
+    #         words.remove(word)
+    #         return words
+    #     else:
+    #         return []
 
-    return ['the wrong thing']
 
 
 def smallest_int(numbers):
